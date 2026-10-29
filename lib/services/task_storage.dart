@@ -28,5 +28,4 @@ class TaskStorage {
 
     await prefs.setString(_storageKey, jsonString);
   }
-
 }
