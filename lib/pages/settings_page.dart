@@ -58,7 +58,7 @@ class _SettingsPageState extends State<SettingsPage> {
     setState(() {
       _confirmDelete = value;
     });
-    await _appStorage.saveConfirmDelete(value);
+    await _appStorage.saveConformDelete(value);
   }
 
   // Mostra o diálogo "Deseja sair da conta?".
